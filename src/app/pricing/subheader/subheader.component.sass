@@ -1,0 +1,49 @@
+@import '../../shared/sass/vars'
+
+.sub-header
+  display: flex
+  flex-direction: column
+  
+  .breadcrumb-wrapper
+    padding: 10px $global-padding
+
+  .title-wrapper
+    display: flex
+    justify-content: space-between
+    padding: 8px $global-padding
+
+    .title
+      font-size: 30px
+      font-weight: bold
+
+    .learn-btn-wrapper
+      display: flex
+      justify-content: space-around
+      .btn--help
+        width: 80px
+        height: 40px
+        background-color: #f5f5f6
+        border: none
+        color: #8a8a9c
+        display: flex
+        justify-content: space-around
+        align-items: center
+      .btn--how-it-works
+        width: 140px
+        height: 40px
+        background-color: $color-primary
+        border: none
+        color: $color-white
+        display: flex
+        justify-content: space-around
+        align-items: center
+        margin-left: 10px
+        box-shadow: 1px 1px 1px $color-primary
+  
+  .filter-wrapper
+    padding: 8px $global-padding
+    
+    .btn-primary
+      background-color: white
+      border-color: #e5e5e6
+      color: black

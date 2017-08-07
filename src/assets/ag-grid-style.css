@@ -1,0 +1,32 @@
+.ag-root.ag-font-style{
+  border: 1px solid #ebebec;
+}
+.ag-header-cell.ag-header-cell-sortable{
+  background-color: #ebebec;
+  border-right: none !important;
+}
+.ag-fresh .ag-header {
+  border-bottom: none !important;
+}
+.ag-fresh .ag-root {
+  border: 1px solid #ebebec !important;
+}
+.ag-fresh .ag-ltr .ag-cell-no-focus {
+  border-right: 1px solid #ebebec !important;
+  border-left: 1px solid #ebebec !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ag-fresh .ag-cell-focus {
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ag-fresh .ag-ltr .ag-header-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

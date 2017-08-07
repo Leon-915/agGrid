@@ -1,0 +1,74 @@
+@import '../../shared/sass/vars'
+
+.header
+  margin: 0
+  display: flex
+  height: 60px
+  align-items: center
+  background-color: $color-primary
+  border-bottom: none
+  padding: 0 $global-padding
+
+  .nav-wrapper 
+    width: 50%
+    display: flex
+    justify-content: flex-start
+
+    nav
+      margin-left: 37px
+      a
+        color: $color-white
+        margin-left: 40px
+      
+      a:first-child
+        margin-left: 0px
+
+  .search-wrapper
+    width: 50%
+    display: flex
+    justify-content: flex-end
+
+    &__input
+      .input--search
+        padding: 11px
+        width: 277px
+        border: none
+        background-color: #1fb9ef
+        color: $color-white
+        &::-webkit-input-placeholder 
+          color: #CCC
+
+        &:-moz-placeholder 
+          color: #CCC
+
+        &::-moz-placeholder 
+          color: #CCC
+
+        &:-ms-input-placeholder 
+          color: #CCC
+
+    &__social-link
+      margin-left: 20px
+      display: flex
+      justify-content: space-between
+      align-items: center
+
+      a
+        color: $color-white
+        margin-left: 15px
+    
+    &__login-signup
+      margin-left: 28px
+      display: flex
+      justify-content: space-around
+      align-items: center
+
+      a
+        color: $color-white
+
+      span
+        margin-left: 14px
+        color: $color-white
+
+      a:last-child
+        margin-left: 14px

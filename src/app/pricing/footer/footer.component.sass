@@ -1,0 +1,43 @@
+@import '../../shared/sass/vars'
+
+.page-footer
+  margin: 0
+  padding: 30px $global-padding 22px
+  background-color: $color-primary
+  height: 160px
+
+  .footer-wrapper
+    display: flex
+    justify-content: center
+    align-content: center
+
+    &__navigation
+      display: flex
+      justify-content: center
+      
+      a
+        color: $color-white
+
+      a:not(:first-child)
+        margin-left: 42px
+        color: $color-white      
+    
+    &__social-link
+      margin-left: 49px
+
+      a
+        color: $color-primary
+      
+      a:not(:first-child)
+        margin-left: 14px
+
+  .footer-logo
+    display: flex
+    justify-content: center
+    margin-top: 28px
+
+  .copyright
+    display: flex
+    justify-content: center
+    margin-top: 28px
+    color: $color-white
